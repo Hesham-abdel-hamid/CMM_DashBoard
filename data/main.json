@@ -1,0 +1,376 @@
+{
+    "dailyBasis": {
+        "IPN Cycle": [
+            "Auto-12:30 AM",
+            "ALL"
+        ],
+        "ATM Bingo": [
+            "Auto-02:30 AM",
+            "ALL"
+        ],
+        "WF_ESPAYDTA_GOV": [
+            "Auto-05:00AM-Sends File to PC",
+            "ALL"
+        ],
+        "After IX": [
+            "After IX Workflows",
+            "ALL"
+        ],
+        "Credit_Purchase_TXN_REPORT": [
+            "After 126",
+            "ALL"
+        ],
+        "Outgoing VISA Cycle": [
+            "After IX Batch",
+            "ALL"
+        ],
+        "Outgoing Master Cycle": [
+            "After IX Batch",
+            "ALL"
+        ],
+        "Debit ABU File Upload": [
+            "When File Received",
+            "ALL"
+        ],
+        "Issuer Batch": [
+            "",
+            "ALL"
+        ],
+        "After Issuer": [
+            "After Issuer Batch",
+            "ALL"
+        ],
+        "GL Project": [
+            "After Issuer Batch",
+            "ALL"
+        ],
+        "ABU Cycle": [
+            "After Issuer Batch",
+            "ALL"
+        ],
+        "Stamp TAX Daily": [
+            "After Issuer",
+            "ALL"
+        ],
+        "Aquier Batch": [
+            "",
+            "ALL"
+        ],
+        "After ACQ": [
+            "After Aquier Batch",
+            "ALL"
+        ],
+        "SPLIT_HDB_FROM_DTF": [
+            "After Acquier",
+            "ALL"
+        ],
+        "WF_GOVCARDS_FILE": [
+            "Auto-07:00 AM",
+            "ALL"
+        ],
+        "1st VISA Incoming Cycle": [
+            "07:00 AM",
+            "ALL"
+        ],
+        "Secure Code": [
+            "After ESSEMBJ",
+            "ALL"
+        ],
+        "NBE Domistic Cycle": [
+            "After IX",
+            "ALL"
+        ],
+        "Send Statement Through Mail": [
+            "After Mail",
+            "ALL"
+        ],
+        "Master DCF Mobile": [
+            "After IX",
+            "ALL"
+        ],
+        "Sending GCO Files": [
+            "When Files Received",
+            "ALL"
+        ],
+        "Acquier LOYALITY Cycle": [
+            "After Acquier",
+            "ALL"
+        ],
+        "Ahly Clear pAN Cycle": [
+            "After Issuer",
+            "ALL"
+        ],
+        "DCF Wallet Fawry": [
+            "09:00 AM",
+            "ALL"
+        ],
+        "Fawry QR MFT": [
+            "09:30 AM",
+            "ALL"
+        ],
+        "DCF Ecommerce Fawry": [
+            "10:00 AM",
+            "ALL"
+        ],
+        "Orange DTF": [
+            "10:00 AM",
+            "ALL"
+        ],
+        "Switch Files Fawry Credit": [
+            "10:00 AM",
+            "ALL"
+        ],
+        "Mezza GO File": [
+            "12:00 PM",
+            "ALL"
+        ],
+        "Digital Loyality File": [
+            "After Mail",
+            "ALL"
+        ],
+        "SMS Payroll Go File": [
+            "After SMS Visa & Gov Received",
+            "ALL"
+        ],
+        "Master PVV": [
+            "02:30 PM",
+            "ALL"
+        ],
+        "Comparing ACQ. POS Currencies": [
+            "Auto-03:00 PM",
+            "ALL"
+        ],
+        "incoming Visa Cycle": [
+            "03:00 PM",
+            "ALL"
+        ],
+        "incoming MIGs Cycle": [
+            "03:00 PM",
+            "ALL"
+        ],
+        "incoming Prepaid Cycle": [
+            "03:00 PM",
+            "ALL"
+        ],
+        "incoming VISATM Cycle": [
+            "03:00 PM",
+            "ALL"
+        ],
+        "MASS_ESVTYDLY": [
+            "03:00 pm",
+            "ALL"
+        ],
+        "incoming Master Cycle": [
+            "04:00 PM",
+            "ALL"
+        ],
+        "NBE_MERCHNT_ORGN": [
+            "04:00 PM",
+            "ALL"
+        ],
+        "Master Reccon Cycle": [
+            "04:00 PM",
+            "ALL"
+        ],
+        "FIS Master Incoming": [
+            "when Files Received",
+            "ALL"
+        ],
+        "Debit & Prepaid Points Files": [
+            "After Mail Received",
+            "ALL"
+        ],
+        "ACQ Loyalty CashBack Cycle": [
+            "10:30 AM",
+            "ALL"
+        ],
+        "Mezza KYC Non": [
+            "After Mail Received",
+            "ALL"
+        ],
+        "Active Dormant Cycle": [
+            "After Mail Received",
+            "ALL"
+        ],
+        "Active KYC Private Payroll": [
+            "After Mail Received",
+            "STOP"
+        ],
+        "Direct Debit Payroll": [
+            "After All Payroll",
+            "ALL"
+        ],
+        "Ahly CashBack Cycle": [
+            "06:00 PM",
+            "ALL"
+        ],
+        "NBE_UPDATEDBA": [
+            "06:00 PM",
+            "ALL"
+        ],
+        "DWP Cycle": [
+            "06:00 PM",
+            "ALL"
+        ],
+        "Switch Files Cycle": [
+            "After Mail",
+            "ALL"
+        ],
+        "Internet Cycle": [
+            "07:00 PM",
+            "ALL"
+        ],
+        "ACQ T057": [
+            "07:00 PM",
+            "ALL"
+        ],
+        "Master Bin Table Cycle": [
+            "07:00 PM",
+            "ALL"
+        ],
+        "Visa Bin Table Cycle": [
+            "07:00 PM",
+            "ALL"
+        ],
+        "FCDB TXN OBDX Cycle": [
+            "09:30 PM",
+            "ALL"
+        ],
+        "OverLimit Cycle": [
+            "10:00 PM",
+            "ALL"
+        ],
+        "IVR Check TXN Cycle": [
+            "10:00 PM",
+            "ALL"
+        ],
+        "Fawry Cycle": [
+            "11:10",
+            "ALL"
+        ]
+    },
+    "mailRequests": {},
+    "pcRequests": {
+        "ACH Cycles": [
+            "",
+            "WORK"
+        ],
+        "GOV Payroll Cycle": [
+            "",
+            "WORK"
+        ],
+        "VISA Payroll Cycles": [
+            "",
+            "WORK"
+        ],
+        "GOV Payroll Issuance-GOV-CARDS": [
+            "",
+            "WORK"
+        ],
+        "SMS_Payroll": [
+            "",
+            "WORK"
+        ],
+        "SMS_Payroll_Gov": [
+            "",
+            "WORK"
+        ],
+        "ACH_COR Cycle": [
+            "",
+            "WORK"
+        ],
+        "GOV COR Cycle": [
+            "",
+            "WORK"
+        ],
+        "Payroll Mapping GOV": [
+            "",
+            "WORK"
+        ],
+        "Mezza KYC Update ACH": [
+            "",
+            "WORK"
+        ],
+        "Mezza KYC Update GOV": [
+            "",
+            "WORK"
+        ],
+        "Payroll AVL Balance": [
+            "",
+            "WORK"
+        ],
+        "Input Transactions": [
+            "",
+            "WORK"
+        ],
+        "ESBCHUPD": [
+            "",
+            "WORK"
+        ],
+        "Admin Order Cycle": [
+            "",
+            "WORK"
+        ]
+    },
+    "flexRequests": {
+        "Coupons Investment": [
+            "",
+            "All"
+        ],
+        "Stamp TAX Flex": [
+            "",
+            "All"
+        ],
+        "ACH & Swift Cycle": [
+            "",
+            "WORK"
+        ],
+        "Deduct ESFLEXGO": [
+            "",
+            "WORK"
+        ],
+        "INST Cycle": [
+            "",
+            "WORK"
+        ]
+    },
+    "mezzaFiles": {
+        "1st ICLR File": [
+            "Upload at 02:00 AM",
+            "ALL"
+        ],
+        "1st IACK File": [
+            "Download at 02:00 AM",
+            "ALL"
+        ],
+        "2nd ICLR File": [
+            "Upload at 08:00 AM",
+            "ALL"
+        ],
+        "2nd IACK File": [
+            "Download at 08:00 AM",
+            "ALL"
+        ],
+        "IRES Files": [
+            "Download at 07:00 AM",
+            "ALL"
+        ],
+        "OCLR File For NBE": [
+            "Download at 07:00 AM",
+            "ALL"
+        ],
+        "OCLR File For CBE": [
+            "Download at 07:00 AM",
+            "ALL"
+        ],
+        "3rd ICLR File - Internet cycle": [
+            "Upload at 08:00 PM",
+            "ALL"
+        ],
+        "3rd IACK File - Internet cycle": [
+            "Download at 08:00 PM",
+            "ALL"
+        ]
+    },
+    "fff": {}
+}

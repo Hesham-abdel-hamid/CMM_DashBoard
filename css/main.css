@@ -170,21 +170,23 @@ input:checked+.slider:before {
 
 /*******************************************************End main body**********************************************************/
 /*******************************************************Start cycles section**************************************************/
-.rightSide .cycles{
+.rightSide .cycles {
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fill ,minmax(200px , 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
+
 .rightSide .cycles .cycle {
     position: relative;
-    background-color: var(--prime-orange);
+    background-color: gray;
     padding: 10px;
     margin: 10px;
     align-content: center;
-    box-shadow: 0 1px 8px var(--light-color) ;
+    box-shadow: 0 1px 8px var(--light-color);
     cursor: pointer;
 }
-.rightSide .cycles .cycle::before{
+
+.rightSide .cycles .cycle::before {
     position: absolute;
     content: "";
     background-color: var(--light-color);
@@ -196,20 +198,37 @@ input:checked+.slider:before {
     transform: translate(-50%, -50%);
     transition: 0.2s;
 }
-.rightSide .cycles .cycle:hover::before {
+
+
+
+.rightSide .cycles .cycle:hover:before {
     width: 100%;
     height: 100%;
 }
+
 .rightSide .cycles .cycle h4 {
     color: var(--light-color);
     font-family: headerFont;
-    align-content: center;
-    text-align: center;
     margin: 1px;
 }
+
 .rightSide .cycles .cycle p {
-    
+    font-family: bodyFont;
+    color: var(--light-color);
 }
+
+#dailyBasis {}
+
+#mailRequests {}
+
+#pcRequests {}
+
+#flexRequests {}
+
+#mezzaFiles {}
+
+#fff {}
+
 /*********************************************************End cycles section**************************************************/
 /********************************************************start Footer**********************************************************/
 #footy {
